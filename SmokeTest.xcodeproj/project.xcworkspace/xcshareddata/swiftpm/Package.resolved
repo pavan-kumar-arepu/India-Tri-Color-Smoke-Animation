@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "indianflagsmokeeffect",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pavan-kumar-arepu/IndianFlagSmokeEffect.git",
+      "state" : {
+        "branch" : "Master",
+        "revision" : "c8efc50d34b7b2fb373ad57d6a6e65a51545243f"
+      }
+    }
+  ],
+  "version" : 2
+}
