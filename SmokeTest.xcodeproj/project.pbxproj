@@ -12,6 +12,7 @@
 		0BF01B3C2C41BBCD0006DE83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF01B3B2C41BBCD0006DE83 /* Assets.xcassets */; };
 		0BF01B3F2C41BBCD0006DE83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF01B3E2C41BBCD0006DE83 /* Preview Assets.xcassets */; };
 		0BF01B472C41BCB60006DE83 /* IndianFlagSmokeEffect in Frameworks */ = {isa = PBXBuildFile; productRef = 0BF01B462C41BCB60006DE83 /* IndianFlagSmokeEffect */; };
+		0BF01B492C41C2000006DE83 /* RootViewControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF01B482C41C2000006DE83 /* RootViewControllerHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		0BF01B392C41BBCA0006DE83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0BF01B3B2C41BBCD0006DE83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BF01B3E2C41BBCD0006DE83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0BF01B482C41C2000006DE83 /* RootViewControllerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewControllerHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,7 @@
 		0BF01B2B2C41BBCA0006DE83 = {
 			isa = PBXGroup;
 			children = (
+				0BF01B482C41C2000006DE83 /* RootViewControllerHelper.swift */,
 				0BF01B362C41BBCA0006DE83 /* SmokeTest */,
 				0BF01B352C41BBCA0006DE83 /* Products */,
 			);
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BF01B3A2C41BBCA0006DE83 /* ContentView.swift in Sources */,
+				0BF01B492C41C2000006DE83 /* RootViewControllerHelper.swift in Sources */,
 				0BF01B382C41BBCA0006DE83 /* SmokeTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
