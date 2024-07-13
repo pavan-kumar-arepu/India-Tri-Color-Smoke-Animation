@@ -6,10 +6,9 @@
 //
 
 import SwiftUI
-import IndianFlagSmokeEffect
 
 @main
-struct SmokeTestApp: App {
+struct SmokeTestAppNew: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

@@ -22,7 +22,7 @@ extension EnvironmentValues {
     }
 }
 
-struct RootViewControllerAccessor: UIViewControllerRepresentable {
+struct RootViewControllerAccessorNew: UIViewControllerRepresentable {
     func makeUIViewController(context: Context) -> UIViewController {
         let viewController = UIViewController()
         DispatchQueue.main.async {
