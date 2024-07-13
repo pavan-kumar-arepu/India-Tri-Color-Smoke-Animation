@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BB0CD132C430ED700996DDD /* IndianFlagSmokeEffect in Frameworks */ = {isa = PBXBuildFile; productRef = 0BB0CD122C430ED700996DDD /* IndianFlagSmokeEffect */; };
 		0BF01B382C41BBCA0006DE83 /* SmokeTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF01B372C41BBCA0006DE83 /* SmokeTestApp.swift */; };
 		0BF01B3A2C41BBCA0006DE83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF01B392C41BBCA0006DE83 /* ContentView.swift */; };
 		0BF01B3C2C41BBCD0006DE83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF01B3B2C41BBCD0006DE83 /* Assets.xcassets */; };
 		0BF01B3F2C41BBCD0006DE83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF01B3E2C41BBCD0006DE83 /* Preview Assets.xcassets */; };
 		0BF01B492C41C2000006DE83 /* RootViewControllerClientHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF01B482C41C2000006DE83 /* RootViewControllerClientHelper.swift */; };
-		0BF01B522C429CBB0006DE83 /* IndianFlagSmokeEffect in Frameworks */ = {isa = PBXBuildFile; productRef = 0BF01B512C429CBB0006DE83 /* IndianFlagSmokeEffect */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BF01B522C429CBB0006DE83 /* IndianFlagSmokeEffect in Frameworks */,
+				0BB0CD132C430ED700996DDD /* IndianFlagSmokeEffect in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +89,7 @@
 			);
 			name = SmokeTest;
 			packageProductDependencies = (
-				0BF01B512C429CBB0006DE83 /* IndianFlagSmokeEffect */,
+				0BB0CD122C430ED700996DDD /* IndianFlagSmokeEffect */,
 			);
 			productName = SmokeTest;
 			productReference = 0BF01B342C41BBCA0006DE83 /* SmokeTest.app */;
@@ -120,7 +120,7 @@
 			);
 			mainGroup = 0BF01B2B2C41BBCA0006DE83;
 			packageReferences = (
-				0BF01B502C429CBB0006DE83 /* XCRemoteSwiftPackageReference "IndianFlagSmokeEffect" */,
+				0BB0CD112C430ED700996DDD /* XCRemoteSwiftPackageReference "IndianFlagSmokeEffect-SwiftPackage" */,
 			);
 			productRefGroup = 0BF01B352C41BBCA0006DE83 /* Products */;
 			projectDirPath = "";
@@ -353,9 +353,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		0BF01B502C429CBB0006DE83 /* XCRemoteSwiftPackageReference "IndianFlagSmokeEffect" */ = {
+		0BB0CD112C430ED700996DDD /* XCRemoteSwiftPackageReference "IndianFlagSmokeEffect-SwiftPackage" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/pavan-kumar-arepu/IndianFlagSmokeEffect.git";
+			repositoryURL = "https://github.com/pavan-kumar-arepu/IndianFlagSmokeEffect-SwiftPackage.git";
 			requirement = {
 				branch = Master;
 				kind = branch;
@@ -364,9 +364,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		0BF01B512C429CBB0006DE83 /* IndianFlagSmokeEffect */ = {
+		0BB0CD122C430ED700996DDD /* IndianFlagSmokeEffect */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 0BF01B502C429CBB0006DE83 /* XCRemoteSwiftPackageReference "IndianFlagSmokeEffect" */;
+			package = 0BB0CD112C430ED700996DDD /* XCRemoteSwiftPackageReference "IndianFlagSmokeEffect-SwiftPackage" */;
 			productName = IndianFlagSmokeEffect;
 		};
 /* End XCSwiftPackageProductDependency section */

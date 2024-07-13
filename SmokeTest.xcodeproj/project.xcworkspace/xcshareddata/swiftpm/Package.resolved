@@ -1,12 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "indianflagsmokeeffect",
+      "identity" : "indianflagsmokeeffect-swiftpackage",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/pavan-kumar-arepu/IndianFlagSmokeEffect.git",
+      "location" : "https://github.com/pavan-kumar-arepu/IndianFlagSmokeEffect-SwiftPackage.git",
       "state" : {
         "branch" : "Master",
-        "revision" : "190266706358f178d4014ceb05c44eb661f33c96"
+        "revision" : "f5445cc69e23e399b84a6cfae46fd7da3e773a85"
       }
     }
   ],
