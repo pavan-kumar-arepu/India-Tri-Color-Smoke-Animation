@@ -21,15 +21,3 @@ extension EnvironmentValues {
         set { self[RootViewControllerKey.self] = newValue }
     }
 }
-
-struct RootViewControllerAccessorNew: UIViewControllerRepresentable {
-    func makeUIViewController(context: Context) -> UIViewController {
-        let viewController = UIViewController()
-        DispatchQueue.main.async {
-            viewController.viewDidAppear(false)
-        }
-        return viewController
-    }
-    
-    func updateUIViewController(_ uiViewController: UIViewController, context: Context) {}
-}
